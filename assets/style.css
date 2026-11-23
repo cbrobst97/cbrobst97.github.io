@@ -281,6 +281,21 @@ details summary:hover {
   margin-bottom: 1.1rem;
 }
 
+.paper .press {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--faint);
+  margin: 0;
+}
+
+.paper .press a {
+  color: var(--muted);
+}
+
+.paper .press a:hover {
+  color: var(--accent);
+}
+
 .note {
   font-size: 0.9rem;
   font-style: italic;
