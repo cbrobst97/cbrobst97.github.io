@@ -296,13 +296,6 @@ details summary:hover {
   color: var(--accent);
 }
 
-.note {
-  font-size: 0.9rem;
-  font-style: italic;
-  color: var(--muted);
-  margin-top: 1.5rem;
-}
-
 details .abstract {
   font-size: 0.95rem;
   margin: 0.6rem 0 0;
