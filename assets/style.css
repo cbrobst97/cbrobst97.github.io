@@ -148,11 +148,6 @@ section {
   border-bottom: 1px solid var(--rule);
 }
 
-.label + .label,
-.entries + .label {
-  margin-top: 2.25rem;
-}
-
 /* ---------- Intro ---------- */
 .intro {
   display: grid;
@@ -314,39 +309,6 @@ details .abstract {
   border-left: 2px solid var(--rule);
 }
 
-/* ---------- Experience / teaching rows ---------- */
-.entries {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.entries li {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  column-gap: 1.5rem;
-  margin-bottom: 1.1rem;
-}
-
-.entries .title {
-  font-weight: 600;
-}
-
-.entries .when {
-  font-family: var(--sans);
-  font-size: 0.82rem;
-  color: var(--faint);
-  text-align: right;
-  white-space: nowrap;
-  padding-top: 0.2rem;
-}
-
-.entries .where {
-  grid-column: 1 / -1;
-  font-size: 0.95rem;
-  color: var(--muted);
-}
-
 /* ---------- Footer ---------- */
 footer {
   max-width: var(--measure);
@@ -382,15 +344,5 @@ footer p {
   .intro .photo {
     order: -1;
     max-width: 9rem;
-  }
-
-  .entries li {
-    grid-template-columns: 1fr;
-  }
-
-  .entries .when {
-    text-align: left;
-    padding-top: 0;
-    order: 3;
   }
 }
