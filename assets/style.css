@@ -12,7 +12,7 @@
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 
-  --measure: 44rem;
+  --measure: 60rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,7 +45,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--serif);
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
@@ -151,8 +151,8 @@ section {
 /* ---------- Intro ---------- */
 .intro {
   display: grid;
-  grid-template-columns: 1fr 13rem;
-  gap: 2.5rem;
+  grid-template-columns: 1fr 20rem;
+  gap: 3rem;
   align-items: start;
   padding-top: 3.5rem;
 }
@@ -343,6 +343,6 @@ footer p {
 
   .intro .photo {
     order: -1;
-    max-width: 9rem;
+    max-width: 13rem;
   }
 }
